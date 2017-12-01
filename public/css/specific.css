@@ -1,0 +1,49 @@
+section {
+	width: 900px;
+	height: initial;
+	position: initial;
+	margin-left: 30px;
+	margin-right: auto;
+}
+
+
+
+
+#introImg {
+	margin-top: 20px;
+	margin-left: 60px;
+	border-radius: 20px;
+}
+
+#up {
+	float: left;
+	position: fixed;
+	top: 88%;
+	left: 91%;
+}
+
+
+#loc {
+	position: relative;
+	left: 15px;
+	top: -20px;
+}
+
+#start {
+	position: absolute;
+	top: 1100px;
+	left: 320px;
+	text-align: center;
+	border-radius: 30px;
+	background-color: #fff;
+	box-shadow: 5px 5px 20px;
+	padding-top: 20px;
+	border: 1px solid #000;
+	font-size: 200%;
+	height: 50px;
+	width: 600px;
+}
+
+#start:hover {
+	box-shadow: inset 5px 5px 20px;
+}

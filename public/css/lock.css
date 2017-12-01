@@ -1,0 +1,30 @@
+#page {
+	border: initial;
+	background-color: initial;
+	box-shadow: initial;
+}
+
+#wrapper {
+	margin: 15% auto;
+}
+
+.menu {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+#upa {
+	display: none;
+}
+
+#page {
+	height: 800px;
+}
+
+.logo {
+	display: none;
+}
+

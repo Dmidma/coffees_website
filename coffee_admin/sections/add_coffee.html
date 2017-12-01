@@ -1,0 +1,47 @@
+<h2>Add Coffee</h2>
+		<input type="text" name="name" placeholder="Name" required>
+		<br/>
+		<br/>
+		<textarea type="text" name="description" placeholder="Description" required></textarea>
+		<br/>
+		<br/>
+		<input type="number" name="latitude" placeholder="Latitude" required>
+		<br/>
+		<br/>
+		<input type="number" name="longitude" placeholder="Longitude" required>
+		<br/>
+		<br/>
+		<input type="text" name="image_path" placeholder="Image Path" required>
+		<br/>
+		<br/>
+		<input type="text" name="street_address" placeholder="Street Address" required>
+		<br/>
+		<br/>
+		<input type="text" name="phone" placeholder="Phone" required>
+		<br/>
+		<br/>
+		<hr/>
+		<button onclick="addItCoffee()" accesskey="s">Add Me</button><b>(alt + s)</b>
+		<br/>
+		<br/>
+		<button onclick="saveAllCoffees()">Save</button>
+		<hr/>
+		<table id="pending_coffe_table" class="ui selectable inverted table">
+			<th>
+				<tr>
+					<td>Name</td>
+					<td>Description</td>
+					<td>Latitude</td>
+					<td>Longitude</td>
+					<td>Image Path</td>
+					<td>Street Address</td>
+					<td>Phone</td>
+					<td>Status</td>
+					<td>Modify</td>
+					<td>Delete</td>
+				</tr>
+			</th>
+		</table>
+		<br/>
+		<br/>
+		<button onclick="clearTable()">Clear</button>

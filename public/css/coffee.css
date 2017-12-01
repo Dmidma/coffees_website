@@ -1,0 +1,23 @@
+section, aside {
+	display: inline-block;
+	width: 700px;
+	height: 350px;
+	
+	vertical-align: top;
+	margin-top: 50px;
+	position: initial;
+	border: 1px solid black;
+}
+
+aside {
+	width: 200px;
+	height: 350px;
+}
+
+
+
+#introImg {
+	margin-top: 20px;
+	margin-left: 60px;
+	border-radius: 50px;
+}

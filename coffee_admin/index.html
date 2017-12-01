@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin-Panel</title>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="Semantic-UI-CSS-master/semantic.js"></script>
+	<link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.css">
+	<link rel="stylesheet" type="text/css" href="open.css">
+</head>
+<body>
+
+	<div id="panel" class="ui sidebar inverted vertical menu">
+    <a class="item">
+      <button onclick="addUsers()">Add-Users</button>
+    </a>
+    <a class="item">
+     <button onclick="getUsers()">Users</button>
+    </a>
+    <a class="item">
+     <button onclick="getEmails()">Emails</button>
+    </a>
+    <a class="item">
+      <button onclick="addCoffees()">Add-Coffees</button>
+    </a>
+     <a class="item">
+      <button onclick="getCoffees()">Coffees</button>
+    </a>
+    <a class="item">
+      <button onclick="getComments()">Comments</button>
+    </a>
+     <a class="item" href="../public/logout.php">
+      <button>Log Out</button>
+    </a>
+  </div>
+  <div class="pusher">
+  	
+  	<button onclick="meMenu()" class="ui icon button">
+  		<i class="list layout icon"></i>
+	</button>
+
+ 
+    <div id="container">
+    </div>
+  </div>
+
+  	<!--
+	<div >
+		
+		<button onclick="getUsers()">Users</button>
+		<button onclick="getEmails()">Emails</button>
+
+		<button onclick="addCoffees()">Add-Coffees</button>
+		<button onclick="getCoffees()">Coffees</button>
+
+		<br/>
+		<a href="../public/logout.php"><button>Log Out</button></a>
+	</div>
+	-->
+</body>
+</html>

@@ -1,0 +1,1 @@
+$(function(){var $window=$(window);var $slideAd=$('#upa');var endZone=$('#footer').offset().top-$window.height()-100;$window.on('scroll',function(){if(endZone<$window.scrollTop()){$slideAd.animate({'right':'-80px'},250)}else{$slideAd.stop(!0).animate({'right':'-360px'},250)}})})

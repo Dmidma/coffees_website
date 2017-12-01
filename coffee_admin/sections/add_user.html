@@ -1,0 +1,55 @@
+<h2>Add User</h2>
+		<input type="text" name="name" placeholder="Name" required>
+		<br/>
+		<br/>
+		<input type="text" name="last_name" placeholder="Last Name" required>
+		<br/>
+		<br/>
+		<input type="date" name="brith_date" required>
+		<br/>
+		<br/>
+		<input type="text" name="username" placeholder="Username" required>
+		<br/>
+		<br/>
+		<input type="password" name="password" placeholder="Password" required>
+		<br/>
+		<br/>
+		<input type="email" name="email" placeholder="Email" required>
+		<br/>
+		<br/>
+		<select name="verified">
+			<option value="1">Verified</option>
+			<option value="0">Not Verified</option>
+		</select>
+		<br/>
+		<br/>
+		<select name="authority">
+			<option value="1">Admin</option>
+			<option value="0">Normal</option>
+		</select>
+		<hr/>
+		<button onclick="addItUser()" accesskey="s">Add Me</button><b>(alt + s)</b>
+		<br/>
+		<br/>
+		<button onclick="saveAllUsers()">Save</button>
+		<hr/>
+		<table id="pending_user_table" class="ui selectable inverted table">
+			<th>
+				<tr>
+					<td>Name</td>
+					<td>Last name</td>
+					<td>Birthday</td>
+					<td>Username</td>
+					<td>password</td>
+					<td>email</td>
+					<td>Verified</td>
+					<td>authority</td>
+					<td>Status</td>
+					<td>Modify</td>
+					<td>Delete</td>
+				</tr>
+			</th>
+		</table>
+		<br/>
+		<br/>
+		<button onclick="clearTable()">Clear</button>

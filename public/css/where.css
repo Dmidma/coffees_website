@@ -1,0 +1,30 @@
+section {
+	height: initial;
+	margin-bottom: 50px;
+}
+
+#map-canvas {
+	width: 940px;
+	height: 600px;
+	border: 1px solid #000;
+	
+}
+
+#up {
+	float: left;
+	margin-left: 70px;
+	position: fixed;
+	left: 85%;
+	top: 88%;
+}
+
+.controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }

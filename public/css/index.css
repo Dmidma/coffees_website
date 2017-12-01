@@ -1,0 +1,150 @@
+body {
+	background-image: url("../img/backgroud-patter.jpg");
+	background-size: 250px;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+#page {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color: #e6dbd0;
+	box-shadow: 5px 5px 6px -1px;
+	border-radius: 30px;
+	
+}
+.logo {
+	width: 150px;
+	display: inline;
+	height: 150px;
+	margin-left: 20px
+}
+.menu {
+	//position: fixed;
+	margin-top: 50px;
+	margin-right: 50px;
+	width: 700px;
+	float: right;
+	border-top: 2px solid #000;
+	border-bottom: 1px double #000;
+	list-style-type: none;
+	text-align: center;
+	//z-index: 500;
+	//background-color: #fff;
+}
+
+.menuContent {
+	display: inline;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+	color: #cc3333;
+}
+
+section {
+	position: relative;
+	top: 20px;
+	left: 110px;
+	width: 700px;
+	height: 350px;
+}
+
+#liste {
+	width: 660px;
+	height: 360px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+aside {
+	
+	display: inline-block;
+	width: 220px;
+	
+	border: 1px solid #000;
+	margin-top: 50px;
+	text-align: center;
+}
+article {
+	width: 700px;
+	border: 1px solid #000;
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block;
+}
+footer {
+	background-color: #71604f;
+	width: 940px;
+	height: 30px;
+	text-align: right;
+	border: 1px solid #000;
+	margin-top: 50px;
+	font-size: 70%;
+}
+
+
+#up {
+	float: left;
+	position: fixed;
+	left: 91%;
+	top: 88%;
+	
+}
+
+
+
+
+#introImg {
+	margin-top: 20px;
+	margin-left: 60px;
+	border-radius: 20px;
+}
+
+#descrip {
+	float: left;
+	position: relative;
+	left: 15%;
+}
+#location {
+	float: left;
+	position: relative;
+	top: 70px;
+	left: 30%;	
+}
+
+#loc {
+	position: relative;
+	left: 15px;
+	top: -20px;
+}
+
+#start {
+	position: absolute;
+	top: 1100px;
+	left: 320px;
+	text-align: center;
+	border-radius: 30px;
+	background-color: #fff;
+	box-shadow: 5px 5px 20px;
+	padding-top: 20px;
+	border: 1px solid #000;
+	font-size: 200%;
+	height: 50px;
+	width: 600px;
+}
+
+#start:hover {
+	box-shadow: inset 5px 5px 20px;
+}

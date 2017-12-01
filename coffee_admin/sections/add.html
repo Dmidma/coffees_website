@@ -1,0 +1,74 @@
+<h2>Add User</h2>
+		<input type="text" name="name" placeholder="Name" required>
+		<br/>
+		<br/>
+		<input type="text" name="last_name" placeholder="Last Name" required>
+		<br/>
+		<br/>
+		<input type="date" name="brith_date" required>
+		<br/>
+		<br/>
+		<input type="text" name="username" placeholder="Username" required>
+		<br/>
+		<br/>
+		<input type="password" name="password" placeholder="Password" required>
+		<br/>
+		<br/>
+		<input type="email" name="email" placeholder="Email" required>
+		<br/>
+		<br/>
+		<hr/>
+		<!--
+		<h3>categories</h3>
+		<table id="categories_table">
+		    <i id="categories_table_empty">No categories</i>
+		</table>
+
+		-->
+		<h3>groupe</h3>
+		<table id="studios_table">
+			<i id="studios_table_empty">No Studios</i>
+		</table>
+
+		<!--
+		<h3>Porn Stars</h3>
+		<table id="pornstars_table">
+			<i id="pornstars_table_empty">No Porn Stars</i>
+			<i>Available soon enough</i>
+		</table>
+		
+		<br/>
+		<br/>
+		-->
+		<button onclick="addIt()" accesskey="s">Add Me</button><b>(alt + s)</b>
+		<br/>
+		<br/>
+		<button onclick="saveAll()">Save</button>
+		<hr/>
+		<button onclick="importVideos()" accesskey="i">Import</button><b>(alt + i)</b>
+		<br/>
+		<br/>
+		<div id="import_section"></div>
+		<hr/>
+		<table id="pending_table">
+			<th>
+				<tr>
+					<td>CIN</td>
+					<td>Nom</td>
+					<td>Prenom</td>
+					<td>login</td>
+					<td>password</td>
+					<td>groupes</td>
+					<td>Status</td>
+					<td>Modify</td>
+					<td>Delete</td>
+					<td><button onclick="selectAll()">Select</button></td>
+				</tr>
+			</th>
+		</table>
+		<br/>
+		<br/>
+		<button onclick="clearTable()">Clear</button>
+		<br/>
+		<br/>
+		<!--<h3 id="nbrVideo">0</h3><h3>videos</h3>-->
